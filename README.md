@@ -1,1 +1,1 @@
-![figure]([https://skillicons.dev/icons?i=js,java,html,css,firebase,linux](https://raw.githubusercontent.com/luan004/CalculadoraJS/main/readme-resources/picture.png))
+![image](https://github.com/luan004/CalculadoraJS/assets/38366327/47116a70-36f4-4c3e-b385-129c9ce984e1)
