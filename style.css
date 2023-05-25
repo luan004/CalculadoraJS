@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    
+}
+
+.card {
+    padding: 20px;
+    background-color: #3838a7;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.visor {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.enter {
+    width: 83px;
+}
+
+.cima {
+    font-size: 22px;
+    color: grey;
+}
+
+.botoesBox {
+    display: flex;
+}
+
+.botao {
+    box-sizing: border-box;
+    margin: 4px;
+    color: white;
+    text-align: center;
+    background-color: rgb(53, 19, 117);
+    padding: 15px;
+    border-radius: 5px;
+}
