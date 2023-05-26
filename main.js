@@ -51,3 +51,39 @@ function calcular(visor, v1, v2) {
 
     return result;
 }
+
+
+
+//TABUADA
+
+const tbotoes = document.querySelectorAll('.tbotao');
+var tvisor = document.getElementById('tvisor');
+
+tbotoes.forEach(function (botao) {
+    const bot = botao.innerHTML;
+    botao.addEventListener('click', function () {
+        if (bot == 'Enter') {
+            if (tvisor.innerHTML != '') {
+                var val = parseFloat(tvisor.innerHTML);
+
+                tvisor.innerHTML =
+                `
+                1*${val} = ${val*1}<br>
+                2*${val} = ${val * 2}<br>
+                3*${val} = ${val * 3}<br>
+                4*${val} = ${val * 4}<br>
+                5*${val} = ${val * 5}<br>
+                6*${val} = ${val * 6}<br>
+                7*${val} = ${val * 7}<br>
+                8*${val} = ${val * 8}<br>
+                9*${val} = ${val * 9}<br>
+                10*${val} = ${val * 10}
+                `;
+            }
+        }
+        else {
+            tvisor.innerHTML = tvisor.innerHTML + bot;
+            console.log(bot);
+        }
+    });
+});

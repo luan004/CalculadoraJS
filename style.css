@@ -1,11 +1,16 @@
+@font-face {
+    font-family: "Nunito";
+    src: url("./assests/Nunito-Bold.ttf");
+}
+
 body {
     display: flex;
-    
+    font-family: Nunito;
 }
 
 .card {
     padding: 20px;
-    background-color: #3838a7;
+    background-color: #4b4b63;
     border-radius: 10px;
     display: block;
     margin: auto;
@@ -18,10 +23,6 @@ body {
     margin: 4px;
 }
 
-.enter {
-    width: 83px;
-}
-
 .cima {
     font-size: 22px;
     color: grey;
@@ -31,12 +32,23 @@ body {
     display: flex;
 }
 
-.botao {
+.botao, .tbotao {
     box-sizing: border-box;
     margin: 4px;
     color: white;
     text-align: center;
-    background-color: rgb(53, 19, 117);
+    background-color: #39304d;
     padding: 15px;
     border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    transition: 0.1s;
+}
+
+.botao:hover, .tbotao:hover {
+    background-color: #2e273d;
+}
+
+.enter {
+    width: 108px;
 }
